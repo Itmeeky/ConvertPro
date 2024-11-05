@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    margin: 10%;
+    width: 90%;
+}
+
+h1 {
+    text-align: center;
+    margin: 4rem 0 5.5rem;
+    font-size: 4rem;
+}
+
+#one {
+    background-color: #c0d0d0;
+}
+
+#one .red-corner-box {
+    background-color: #cb1313;
+}
+
+#one input {
+    background-color: #cb1313;
+    border: none;
+    color: white;
+}
+
+#two {
+    background-color: #333452;
+    color: white;
+}
+
+#two .yellow-corner-box {
+    background-color: #ff9f03;
+}
+
+#two input {
+    background-color: #ff9f03;
+    border: none;
+}
+
+#three {
+    background-color: #c0d0d0;
+}
+
+#three .blue-corner-box {
+    background-color: #1361c6;
+}
+
+section {
+    margin: 0 auto;
+    width: 72%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section #one, section #two, section #three {
+    height: 48rem;
+    width: 35rem;
+    padding: 2.5rem;
+    border-radius: 2.2rem;
+}
+
+/* section #one, section #two {
+    margin-right: 8%;
+} */
+
+.security-text {
+    text-align: center;
+    margin: 6rem 0 4rem;
+}
+
+.security-text h2 {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.security-text p {
+    font-size: 1.3rem;
+}
+
+section #one h2, section #two h2, section #three h2 {
+    font-size: 3rem;
+    margin: 0.45rem 0;
+}
+
+section #one h3, section #two h3, section #three h3 {
+    font-size: 2.7rem;
+    margin: 0.3rem;
+}
+
+section #one p, section #two p, section #three p {
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.one-input, .two-input, .three-input {
+    display: flex;
+}
+
+#one, #two, #three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.three-input, .two-input, .one-input {
+    display: flex;
+    justify-content: end;
+
+}
+
+#three input, #two input, #one input{
+    padding: 1.8rem;
+    width: 60%;
+    border-radius: 1.5rem;
+    font-size: 1.8rem;
+}
+
+#three input:hover, #two input:hover, #one input:hover {
+    cursor: pointer;
+}
+
+#three input {
+    border: 1px solid #cb1313;
+}
+
+.security-text p a {
+    color: rgb(32, 32, 32);
+}
