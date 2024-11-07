@@ -13,20 +13,20 @@ main {
 }
 
 h1 {
-    margin: 5rem 0 3rem;
+    margin: 5rem 0 2.5rem;
     font-size: 5rem;
 }
 
 h2 {
     font-size: 3.9rem;
     font-weight: 500;
-    margin: 2.5rem 0 2.1rem;
+    margin: 2.5rem 0 2rem;
 }
 
 h3 {
     font-size: 2.75rem;
     font-weight: 500;
-    margin: 2rem 0 1rem;
+    margin: 2rem 0 0.4rem;
 }
 
 input {
@@ -36,6 +36,6 @@ input {
     font-size: 3rem;
     padding: 2.38rem;
     margin: 2.2rem 0;
-    width: 15%;
+    width: 30rem;
     font-weight: 600;
 }

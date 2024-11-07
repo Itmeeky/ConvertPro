@@ -7,3 +7,63 @@
 html {
     font-size: 62.5%;
 }
+
+h1 {
+    font-size: 4.5rem;
+    margin: 5rem 0 2rem;
+}
+
+#text {
+    text-align: center;
+}
+
+#text h2 {
+    font-size: 3.8rem;
+    font-weight: 400;
+    margin: 2rem 0 6rem;
+}
+
+#div-section {
+    width: 50%;
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#div-section #first-div, #div-section #second-div {
+    border: 1px solid black;
+    width: 49%;
+    padding: 2rem 1rem 6rem;
+    height: 53rem;
+    border-radius: 1rem;
+}
+
+#div-section #first-div {
+    box-shadow: 0.5rem 0.4rem 0.5rem grey;
+}
+
+#div-section #second-div {
+    border: none;
+    color: grey;
+}
+
+#first-div img {
+    width: 60%;
+}
+
+#div-section h2 {
+    font-size: 3.9rem;
+    margin: 1.5rem 0;
+}
+
+#div-section p {
+    font-size: 2.5rem;
+
+}
+
+#first-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

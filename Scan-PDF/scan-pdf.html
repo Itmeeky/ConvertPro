@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ConvertPro</title>
     <link rel="stylesheet" href="scan-pdf.css" />
+    <link
+      rel="stylesheet"
+      href="compress-tablet.css"
+      media="(max-width: 1024px)"
+    />
+    <link
+      rel="stylesheet"
+      href="compress-mobile.css"
+      media="(max-width: 500px)"
+    />
+    <!-- 1352 -->
+    <!-- <link rel="stylesheet" href="tablet.css" media="(max-width: 1054px)" /> -->
   </head>
   <body>
     <section id="text">
@@ -13,12 +25,16 @@
     </section>
     <section id="div-section">
       <div id="first-div">
-        <h2>Step 1</h2>
-        <p>
-          Use your smartphone's camera <br />
-          to scan this QR code
-        </p>
-        <img src="../Media/QR code.pdf" alt="" />
+        <div class="first-div-text">
+          <h2>Step 1</h2>
+          <p>
+            Use your smartphone's camera <br />
+            to scan this QR code
+          </p>
+        </div>
+        <div class="first-div-img">
+          <img src="../Media/QR Code.png" alt="" />
+        </div>
       </div>
       <div id="second-div">
         <h2>Step 2</h2>
