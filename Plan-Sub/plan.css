@@ -170,3 +170,32 @@ section #one p, section #two p, section #three p {
     justify-content: end;
     align-items: end;
 }
+
+
+/*Footer*/
+
+.footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.2rem outset #f2dcdc;
+}
+
+.footer-items{
+    min-height: 10vh;
+}
+
+.footerlogo{
+    order: 1;
+    width: 20vw;
+}
+
+.copyright{
+    margin-left: 10rem;
+    width: 30vw;
+}
+
+.copyright p{
+    font-size: 1.5rem;
+}
