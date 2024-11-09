@@ -8,14 +8,18 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-family: "Inter", sans-serif;
+}
+
 main {
-    margin: 10%;
-    width: 90%;
+    margin: 0 auto;
+    /* width: 90%; */
 }
 
 h1 {
     text-align: center;
-    margin: 4rem 0 5.5rem;
+    margin: 7rem 0 5.5rem;
     font-size: 4rem;
 }
 
@@ -64,9 +68,9 @@ section {
 }
 
 section #one, section #two, section #three {
-    height: 48rem;
-    width: 35rem;
-    padding: 2.5rem;
+    height: 55rem;
+    width: 39rem;
+    padding: 0rem 2.3rem 2.3rem;
     border-radius: 2.2rem;
 }
 
@@ -76,12 +80,12 @@ section #one, section #two, section #three {
 
 .security-text {
     text-align: center;
-    margin: 6rem 0 4rem;
+    margin: 9rem 0 6rem;
 }
 
 .security-text h2 {
     font-size: 3rem;
-    margin: 1rem 0;
+    margin: 2.5rem 0 1rem;
 }
 
 .security-text p {
@@ -89,17 +93,16 @@ section #one, section #two, section #three {
 }
 
 section #one h2, section #two h2, section #three h2 {
-    font-size: 3rem;
-    margin: 0.45rem 0;
+    font-size: 3.9rem;
 }
 
 section #one h3, section #two h3, section #three h3 {
-    font-size: 2.7rem;
+    font-size: 2.8rem;
     margin: 0.3rem;
 }
 
 section #one p, section #two p, section #three p {
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding: 1rem 0;
 }
 
@@ -116,14 +119,13 @@ section #one p, section #two p, section #three p {
 .three-input, .two-input, .one-input {
     display: flex;
     justify-content: end;
-
 }
 
 #three input, #two input, #one input{
     padding: 1.8rem;
     width: 60%;
     border-radius: 1.5rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 #three input:hover, #two input:hover, #one input:hover {
@@ -136,4 +138,26 @@ section #one p, section #two p, section #three p {
 
 .security-text p a {
     color: rgb(32, 32, 32);
+}
+
+.red-corner-box {
+    background-color: #cb1313;
+
+}
+
+.yellow-corner-box {
+    background-color: #ff9f03;
+}
+
+.blue-corner-box {
+    background-color: #1361c6;
+}
+
+.blue-corner-box, .yellow-corner-box, .red-corner-box {
+    width: 7rem;
+    height: 7rem;
+    border-top-right-radius: 2rem;
+    position: relative;
+    top: 0rem;
+    left: 29.7rem;
 }

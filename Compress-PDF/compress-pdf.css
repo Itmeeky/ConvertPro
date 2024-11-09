@@ -8,6 +8,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-family: "Inter", sans-serif;
+}
+
 main {
     text-align: center;
 }
@@ -38,4 +42,8 @@ input {
     margin: 2.2rem 0;
     width: 30rem;
     font-weight: 600;
+}
+
+input:hover {
+    cursor: pointer;
 }

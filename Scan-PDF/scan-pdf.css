@@ -8,6 +8,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-family: "Inter", sans-serif;
+}
+
 h1 {
     font-size: 4.5rem;
     margin: 5rem 0 2rem;

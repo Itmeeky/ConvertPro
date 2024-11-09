@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.sub-three {
+    width: 55%;
+}
+
+.sub-three input {
+    width: 700%;
+    height: 6.5rem;
+    border-radius: 2rem;
+    color: #696868;
+    padding: 0 2rem 0 6.2rem;
+    font-size: 1.8rem;
+    background-color: white;
+    border: 1px solid #dfe2e7;
+}
+
+.two-d input {
+    width: 52%;
+}

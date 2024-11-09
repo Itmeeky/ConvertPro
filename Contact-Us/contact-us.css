@@ -8,74 +8,61 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-family: "Inter", sans-serif;
+}
+
 main {
-    display: flex;
-    justify-content: left;
-    width: 80%;
-    margin: 4% 20%;
-    align-items: center;
+    margin: 6% 10%;
 }
 
-#main-sections section {
-    display: flex;
-    /* justify-content: space-between; */
+#one {
+    width: 55%;
 }
 
-.two-a, .two-b, .two-c {
-    padding: 2rem 0;
-}
-
-#one h1 {
-    font-size: 4.7rem;
-    padding: 3rem 0rem 4.7rem;
+h1 {
+    font-size: 4.5rem;
+    margin: 3rem 0;
 }
 
 #two {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items:flex-start;
-    /* border: 1px solid black; */
-    /* width: 100%; */
-}
-
-#two input, #two label {
-    font-size: 2.2rem;
-    padding: 0.4rem;
+    font-size: 2.3rem;
 }
 
 .two-a, .two-b, .two-c {
     display: flex;
     flex-direction: column;
-    margin: 1.5rem 0;
-    justify-content: center;
+    margin: 2rem 0;
+}
+
+.two-a label, .two-b label, .two-c label {
+    margin: 0.5rem 0;
+}
+
+textarea {
+    resize: none;
+    height: 45rem;
+    border: 1px solid black;
 }
 
 .two-a input, .two-b input {
-    width: 370%;
-    height: 6.5rem;
-    outline: 1px solid black;
-}
-
-.two-c textarea {
-    resize: none;
-    width: 104.7rem;
-    height: 42rem;
-    outline: 1px solid black;
+    height: 6rem;
+    border: 1px solid black;
+    font-size: 2.3rem;
 }
 
 #three {
-    width: 105rem;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: flex-end;
+    margin: 4rem 0;
 }
 
 #three input {
-    border: none;
     background-color: #fe0501;
     color: white;
-    font-size: 2.1rem;
+    height: 11%;
+    font-size: 2.3rem;
+    border: none;
+    width: 27rem;
     padding: 2rem;
-    margin: 3rem 0;
 }

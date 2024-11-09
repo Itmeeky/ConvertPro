@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #062426;
+    color: white;
+    text-align: center;
+}
+
+#one h1 {
+    font-size: 4.5rem;
+    margin: 8rem 0 1.5rem;
+}
+
+#one p {
+    font-size: 2rem;
+}
+
+#one p span {
+    font-weight: 600;
+}
+
+#one {
+    width: 80%;
+    margin: 0rem auto 10rem;
+}
+
+#two .input-fields {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.input-fields input {
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+#two h2 {
+    width: 38%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    border-bottom: 1px solid white;
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.two-btn {
+    width: 38%;
+    margin: 1.7rem auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.two-btn input {
+    border: none;
+    background-color: #fc0504;
+    width: 23%;
+    color: white;
+    height: 5rem;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+#three img {
+    height: 2.4rem;
+}
+
+#three {
+    width: 29%;
+    display: flex;
+    margin: 5rem auto;
+}
+
+.three-a, .three-b {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem 3rem;
+    font-size: 2rem;
+}
+
+.three-a img, .three-b img {
+    margin: 0 0.5rem;
+}
+
+
+.four-b img {
+    height: 10rem;
+    width: 60%;
+}
+
+.divide-line {
+    height: 0.3rem;
+    margin: 8rem auto;
+    background-color: white;
+    width: 70%;
+}
+
+.four-a, .four-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3.4rem;
+}
+
+#four {
+    display: flex;
+    margin-bottom: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-a img {
+    width: 100%;
+    height: 10rem;
+}
+
+#four h2 {
+    font-size: 1.8rem;
+}
