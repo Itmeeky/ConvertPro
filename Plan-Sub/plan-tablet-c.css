@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#plan-packages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section #one, section #two, section #three {
+    margin: 2.7rem 0;
+    height: 60rem;
+    width: 55%;
+    padding: 0rem 2.3rem 2.3rem;
+    border-radius: 2.2rem;
+}
+
+.three-box, .two-box, .one-box {
+    width: 105.58%;
+}
+
+section #one h2, section #two h2, section #three h2 {
+    font-size: 3.9rem;
+}
+
+section #one h3, section #two h3, section #three h3 {
+    font-size: 2.8rem;
+}
+
+section #one p, section #two p, section #three p {
+    font-size: 2.3rem;
+}

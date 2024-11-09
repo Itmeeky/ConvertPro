@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+section #one, section #two, section #three {
+    height: 50rem;
+    width: 62%;
+}
+
+.three-box, .two-box, .one-box {
+    width: 107.38%;
+}
+
+section {
+    width: 90%;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+section #one h2, section #two h2, section #three h2 {
+    font-size: 3.1rem;
+}
+
+section #one h3, section #two h3, section #three h3 {
+    font-size: 2.5rem;
+}
+
+section #one p, section #two p, section #three p {
+    font-size: 2rem;
+}

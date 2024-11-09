@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.three-box, .two-box, .one-box {
+    width: 107.18%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}

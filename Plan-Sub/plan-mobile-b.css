@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+section #one, section #two, section #three {
+    height: 55rem;
+    width: 77%;
+}
+
+h1 {
+    font-size: 3.2rem;
+    width: 90%;
+    margin-bottom: 1.7rem;
+}
+
+section #one h2, section #two h2, section #three h2 {
+    font-size: 3rem;
+}
+
+section #one h3, section #two h3, section #three h3 {
+    font-size: 2.2rem;
+}
+
+section #one p, section #two p, section #three p {
+    font-size: 1.8rem;
+}
+
+#three input, #two input, #one input{
+    width: 80%;
+}
+
+.security-text {
+    text-align: center;
+    margin: 5rem 0 6rem;
+}

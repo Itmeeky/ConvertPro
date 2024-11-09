@@ -61,7 +61,7 @@ h1 {
 
 section {
     margin: 0 auto;
-    width: 72%;
+    width: 80%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -69,9 +69,14 @@ section {
 
 section #one, section #two, section #three {
     height: 55rem;
-    width: 39rem;
+    width: 29%;
     padding: 0rem 2.3rem 2.3rem;
     border-radius: 2.2rem;
+}
+
+#plan-packages {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* section #one, section #two {
@@ -157,7 +162,11 @@ section #one p, section #two p, section #three p {
     width: 7rem;
     height: 7rem;
     border-top-right-radius: 2rem;
-    position: relative;
-    top: 0rem;
-    left: 29.7rem;
+}
+
+.three-box, .two-box, .one-box {
+    width: 106.38%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
