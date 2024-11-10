@@ -305,11 +305,12 @@ textarea {
 /*Footer*/
 
 .footer{
-    width: 100vw;
+    width: 100%;
     min-height: 10vh;
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    align-items: center;
+    margin: 20rem 2rem -10rem 0;
 }
 
 .footer-items{
@@ -326,5 +327,6 @@ textarea {
 }
 
 .copyright p{
+    margin-top: 3rem;
     font-size: 1.5rem;
 }
