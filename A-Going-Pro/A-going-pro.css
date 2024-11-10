@@ -294,16 +294,21 @@ li a:hover, .menuicon:hover:hover .burg {
 }
 
 .two-btn {
-    width: 38%;
+    width: 46%;
     margin: 1.7rem auto;
     display: flex;
+    justify-content: flex-end;
+}
+
+.two-btn a {
+    width: 50%;
     justify-content: flex-end;
 }
 
 .two-btn input {
     border: none;
     background-color: #fc0504;
-    width: 23%;
+    width: 63%;
     color: white;
     height: 5rem;
     border: none;

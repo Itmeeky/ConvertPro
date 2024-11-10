@@ -52,3 +52,15 @@ html {
     width: 90%;
     height: 9rem;
 }
+
+.two-btn {
+    width: 67%;
+    margin: 1.7rem auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.two-btn a {
+    width: 70%;
+    justify-content: flex-end;
+}
