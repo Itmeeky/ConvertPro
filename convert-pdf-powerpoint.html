@@ -1,47 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ConvertPro</title>
-    <link rel="stylesheet" href="plan.css" />
-    <link
-      rel="stylesheet"
-      href="plan-tablet-a.css"
-      media="(max-width: 1480px)"
-    />
-    <link
-      rel="stylesheet"
-      href="plan-tablet-b.css"
-      media="(max-width: 1264px)"
-    />
-    <link
-      rel="stylesheet"
-      href="plan-tablet-c.css"
-      media="(max-width: 1148px)"
-    />
-    <link
-      rel="stylesheet"
-      href="plan-mobile-a.css"
-      media="(max-width: 744px)"
-    />
-    <link
-      rel="stylesheet"
-      href="plan-mobile-b.css"
-      media="(max-width: 500px)"
-    />
-    <link rel="stylesheet" href="plan-mobile.css" media="(max-width: 500px)" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-
-    <header>
-      <!-- Header Section-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="convert.css" />
+    <link rel="stylesheet" href="convert_tablet.css" media="(max-width:1024px)" />
+    <link rel="stylesheet" href="convert_mobile.css" media="(max-width:500px)" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!-- Header Section-->
      <div class="header">
       <div class="logo">
         <img
@@ -73,7 +42,7 @@
             <div class="dropdown3">
                 <h2>PDF SECURITY AND OPTIMIZATION</h2>
                 <ul>
-                <li><a class="d1" href=""><i class="fa-regular fa-pen-to-square" style="font-size: 2rem;"></i> Edit PDF</a>
+                <li><a class="d1" href="#"><i class="fa-regular fa-pen-to-square" style="font-size: 2rem;"></i> Edit PDF</a>
                 <a class="d1" href="#"><i class="fa-regular fa-copy" style="font-size: 2rem;"></i> Merge PDF</a>
                 <a class="d1" href="#"><i class="fa-solid fa-compress" style="font-size: 2rem;"></i> Compress PDF</a>
                 <a class="d1" href="#"><i class="fa-solid fa-unlock" style="font-size: 2rem;"></i> Unlock PDF</a></li>
@@ -104,85 +73,25 @@
         </ul>
       </div>
     </div>
-    </header>
-
-    <main>
-      <h1>Choose the plan that suits you</h1>
-
-      <section id="plan-packages">
-        <div id="one">
-          <div class="one-main">
-            <div class="one-box">
-              <div class="red-corner-box"></div>
-            </div>
-            <h2>Free</h2>
-            <h3>0$</h3>
-            <p>Limited access to ConvertPro tools</p>
-            <p>Limited document processing Work on Web</p>
-          </div>
-          <div class="one-input">
-            <input type="button" value="Get Started" />
-          </div>
-        </div>
-
-        <div id="two">
-          <div class="two-main">
-            <div class="two-box">
-              <div class="yellow-corner-box"></div>
-            </div>
-            <h2>Student</h2>
-            <h3>$3/month</h3>
-            <p>50% access to ConvertPro tools</p>
-            <p>Swift response from Customer Support</p>
-            <p>No ADs</p>
-          </div>
-          <div class="two-input">
-            <input type="button" value="Get Started" />
-          </div>
-        </div>
-
-        <div id="three">
-          <div class="three-main">
-            <div class="three-box">
-              <div class="blue-corner-box"></div>
-            </div>
-            <h2>Business</h2>
-            <h3>$10/month</h3>
-            <p>Full access to ConvertPro tools</p>
-            <p>Faster Downloads</p>
-            <p>No ADs</p>
-            <p>Unlimited downloads</p>
-            <p>Advanced editing tools</p>
-            <p>Higher quality downloads</p>
-          </div>
-          <div class="three-input">
-            <input type="button" value="Get Started" />
-          </div>
-        </div>
-      </section>
-
-      <div class="security-text">
-        <h2>The security of your data is our priority</h2>
-        <p>
-          In addition to encryption in transit and at rest, we operate in
-          compliance with industry-accepted <br />
-          standards, regulations, and certifications.
-          <a href="https://www.convertpro.com/help/security"
-            >https://www.convertpro.com/help/security</a
-          >
-        </p>
+      <!--Upload Section-->
+      <div class="upload">
+        <h1>PDF TO POWERPOINT CONVERTER</h1>
+        <h2>Convert your PDF to Microsoft PowerPoint</h2>
+        <p>Powered by Vephla Uni.</p>
+        <a href="#"><button>Select PDF File</button></a>
       </div>
-    </main>
-
-    <footer>
       <!--Footer Section-->
       <div class="footer">
         <div class="footerlogo footer-items">
-          <img class="logoimg" src="/images/convert pro image.png" alt="logo" />
+            <img
+          class="logoimg"
+          src="/images/convert pro image.png"
+          alt="logo"
+        />
         </div>
-        <div class="copyright footer-items">
-        <p>Copyright &copy; 2024. All rights reserved.</p>
-      </div>
-    </footer>
-  </body>
+        <div class="copyright footer-items"">
+           <p>Copyright &copy; 2024. All rights reserved. </p>
+        </div>
+    </div>
+</body>
 </html>
