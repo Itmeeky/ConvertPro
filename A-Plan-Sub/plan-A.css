@@ -199,3 +199,30 @@ section #one p, section #two p, section #three p {
 .copyright p{
     font-size: 1.5rem;
 }
+
+/*Footer*/
+
+.footer{
+    width: 100vw;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.footer-items{
+    width: 30vw;
+    min-height: 10vh;
+}
+
+.footerlogo{
+    margin-left: 10rem;
+}
+
+.copyright{
+    margin-right: 3rem;
+}
+
+.copyright p{
+    font-size: 1.5rem;
+}
