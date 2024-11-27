@@ -246,15 +246,28 @@ li a:hover, .menuicon:hover:hover .burg {
     width: 55%;
 }
 
+
+
 .sub-three input {
-    width: 700%;
+    width: 33rem;
     height: 6.5rem;
     border-radius: 2rem;
     color: #696868;
     padding: 0 2rem 0 6.2rem;
     font-size: 1.8rem;
     background-color: white;
+    margin: 0 1rem;
     border: 1px solid #dfe2e7;
+    padding: 1rem 3rem;
+}
+
+#three img {
+    width: 15%;
+    height: 4.8rem;
+    position: relative;
+    top: 0;
+    left: 6rem;
+    margin: 0 0.3rem 0 1rem;
 }
 
 .two-d input {
