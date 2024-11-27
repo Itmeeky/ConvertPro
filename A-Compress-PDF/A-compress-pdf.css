@@ -253,17 +253,17 @@ main {
 
 h1 {
     margin: 5rem 0 2.5rem;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 h2 {
-    font-size: 3.9rem;
+    font-size: 3.4rem;
     font-weight: 500;
     margin: 2.5rem 0 2rem;
 }
 
 h3 {
-    font-size: 2.75rem;
+    font-size: 2.4rem;
     font-weight: 500;
     margin: 2rem 0 0.4rem;
 }
@@ -272,7 +272,7 @@ input {
     border: none;
     background-color: #fe0501;
     color: white;
-    font-size: 3rem;
+    font-size: 2.7rem;
     padding: 2.38rem;
     margin: 2.2rem 0;
     width: 30rem;
