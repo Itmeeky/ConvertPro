@@ -249,12 +249,12 @@ li a:hover, .menuicon:hover:hover .burg {
 
 
 #one h1 {
-    font-size: 4.5rem;
+    font-size: 4.2rem;
     margin: 8rem 0 1.5rem;
 }
 
 #one p {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #one p span {
@@ -286,23 +286,28 @@ li a:hover, .menuicon:hover:hover .burg {
     margin: 0 auto;
     padding: 1rem 0;
     border-bottom: 1px solid white;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 500;
     display: flex;
     justify-content: flex-start;
 }
 
 .two-btn {
-    width: 38%;
+    width: 46%;
     margin: 1.7rem auto;
     display: flex;
+    justify-content: flex-end;
+}
+
+.two-btn a {
+    width: 50%;
     justify-content: flex-end;
 }
 
 .two-btn input {
     border: none;
     background-color: #fc0504;
-    width: 23%;
+    width: 63%;
     color: white;
     height: 5rem;
     border: none;
@@ -366,5 +371,5 @@ li a:hover, .menuicon:hover:hover .burg {
 }
 
 #four h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
