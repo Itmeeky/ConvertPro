@@ -5,8 +5,13 @@
 }
 
 html{
-    font-size: 55%;
+    font-size: 53%;
 }
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
 
 /* Header Section */
 
@@ -69,7 +74,7 @@ html{
     width: 20vw;
     min-height: 10vh;
     position: absolute;
-    top: 43%;
+    top: 46%;
     left: 38%;
 }
 
@@ -199,15 +204,18 @@ li.dropdown2{
 .d1{
     margin-left: 1rem;
     margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .d2{
-    margin-left: 1rem;
-    
+    margin-left: 4rem;
+    margin-bottom: -6rem; 
+    margin-top: -6.4rem;
 }
 
 .d22{
-    margin-top: 10rem;
+    margin-top: -15rem;
+    margin-left: 12rem;
 }
 
 /* Hero Section */

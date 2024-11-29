@@ -8,6 +8,10 @@ html{
     font-size: 57%;
 }
 
+body {
+    font-family: "Inter", sans-serif;
+}
+
 /* Header Section */
 
 .header{
