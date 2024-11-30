@@ -8,7 +8,9 @@ html {
     font-size: 62.5%;
 }
 
-
+body {
+    font-family: "Inter", sans-serif;
+}
 
 /* Header Section */
 
@@ -46,7 +48,7 @@ html {
 }
 
 .navbar a{
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     text-decoration: none;
     color: black;
 }
@@ -75,7 +77,7 @@ html {
 }
 
 .login a{
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     text-decoration: none;
     color:black;
 }
@@ -105,16 +107,16 @@ li a:hover, .dropdown2:hover .dropbtn1 {
         color: #FF0505; }    
 
 .dropdown1 h2{
-    margin-bottom: 0;
-    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
     }
         
 .dropdown2 h2{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     }
 
 .chead{
-    margin-top: -23rem;
+    margin-top: -25.1rem;
     margin-left: 20rem
 }
 
@@ -198,11 +200,17 @@ li.dropdown2{
 .d1{
     margin-left: 1rem;
     margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .d2{
-    margin-left: 4rem;
-    margin-bottom: 2rem; 
+    margin-left: 18rem;
+    margin-bottom: -6rem; 
+    margin-top: -6.4rem;
+}
+
+.d22{
+    margin-top: -15rem;
 }
 
 li.menuicon{
@@ -216,7 +224,7 @@ li.menuicon{
     position: absolute;
     background-color: #FFF;
     z-index: 1;
-    width: 9vw;
+    width: 10vw;
     height: 16vh;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
