@@ -5,8 +5,11 @@
 }
 
 html{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 57%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
 }
 
 /* Header Section */
@@ -45,7 +48,7 @@ html{
 }
 
 .navbar a{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-decoration: none;
     color: black;
 }
@@ -74,7 +77,7 @@ html{
 }
 
 .login a{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-decoration: none;
     color:black;
 }
@@ -104,12 +107,13 @@ li a:hover, .dropdown2:hover .dropbtn1 {
         color: #FF0505; }    
 
 .dropdown1 h2{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    
 }
 
 .chead{
-    margin-top: -22.5rem;
-    margin-left: 20rem
+    margin-top: -24.5rem;
+    margin-left: 20rem;
 }
 
 .clink{
@@ -192,11 +196,18 @@ li.dropdown2{
 .d1{
     margin-left: 1rem;
     margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .d2{
     margin-left: 4rem;
-    margin-bottom: 2rem; 
+    margin-bottom: -6rem; 
+    margin-top: -6.4rem;
+}
+
+.d22{
+    margin-top: -15rem;
+    margin-left: 15rem;
 }
 
 /* Hero Section */

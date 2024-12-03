@@ -5,9 +5,13 @@
 }
 
 html{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 62.5%;
 }
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
 
 /* Header Section */
 
@@ -29,7 +33,7 @@ html{
 
 .logoimg{
     width: 150px;
-    height: 70px;
+    height: 80px;
 }
 
 .navbar{
@@ -40,12 +44,12 @@ html{
 .navbar li{
     list-style: none;
     float: left;
-    margin-top: 2rem;
+    margin-top: 1.8rem;
     padding-right: 2.5rem;
 }
 
 .navbar a{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-decoration: none;
     color: black;
 }
@@ -62,7 +66,7 @@ html{
 }
 
 .login{
-    width: 12vw;
+    width: 14vw;
     min-height: 10vh;
 }
 
@@ -74,7 +78,7 @@ html{
 }
 
 .login a{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-decoration: none;
     color:black;
 }
@@ -104,12 +108,18 @@ li a:hover, .dropdown2:hover .dropbtn1 {
         color: #FF0505; }    
 
 .dropdown1 h2{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    
+}
+
+.dropdown2 h2{
+    font-size: 1.7rem;
 }
 
 .chead{
-    margin-top: -23rem;
-    margin-left: 20rem
+    margin-top: -25.1rem;
+    margin-left: 20rem;
 }
 
 .clink{
@@ -192,11 +202,18 @@ li.dropdown2{
 .d1{
     margin-left: 1rem;
     margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .d2{
     margin-left: 4rem;
-    margin-bottom: 2rem; 
+    margin-bottom: -6rem; 
+    margin-top: -6.4rem;
+}
+
+.d22{
+    margin-top: -15rem;
+    margin-left: 15rem;
 }
 
 /* Hero Section */
@@ -214,12 +231,12 @@ li.dropdown2{
 
 .hero h1{
     margin-top: 6rem;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 
 .hero h2{
     margin: 3rem 0;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .hero button{
@@ -228,7 +245,7 @@ margin-bottom: 6rem;
 padding:0.5rem;
 border-radius: 2rem;
 color:#FF0505;
-font-size: 1.2rem;
+font-size: 1.6rem;
 }
 
 /*Main Section*/
@@ -277,15 +294,16 @@ font-size: 1.2rem;
     opacity: 0.7;
     padding-left: 1rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .main1, .main2, h2{
-    margin-top: 1.5rem;
+    margin-top: 1.4rem;
 }
 
 .main1, .main2, p{
-    margin-top: 1.5rem;
-    font-size: 1rem;
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .main2{
@@ -340,5 +358,5 @@ font-size: 1.2rem;
 }
 
 .copyright p{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }

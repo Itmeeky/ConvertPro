@@ -7,7 +7,7 @@
 
 
 html {
-    font-size: 62.5%;
+    font-size: 56%;
 }
 
 /* Header Section */
@@ -46,7 +46,7 @@ html {
 }
 
 .navbar a{
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     text-decoration: none;
     color: black;
 }
@@ -75,7 +75,7 @@ html {
 }
 
 .login a{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-decoration: none;
     color:black;
 }
@@ -102,14 +102,14 @@ li a:hover, .dropdown:hover .dropbtn {
     color: #FF0505; }
 
 li a:hover, .dropdown2:hover .dropbtn1 {
-        color: #FF0505; }
+        color: #FF0505; }    
 
 .dropdown1 h2{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .chead{
-    margin-top: -22.5rem;
+    margin-top: -24.5rem;
     margin-left: 20rem
 }
 
@@ -132,7 +132,7 @@ li a:hover, .dropdown2:hover .dropbtn1 {
 .dropdown1 a:hover{
     color:#FF0505;
     text-decoration: underline;
-
+    
 }
 
 .dropdown3 a:hover{
@@ -154,7 +154,7 @@ li a:hover, .dropdown2:hover .dropbtn1 {
 
 .dropdown3 h2{
     margin-left: 1rem;
-
+    
 }
 
 li.dropdown2{
@@ -191,14 +191,23 @@ li.dropdown2{
 }
 
 .d1{
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .d2{
-    margin-left: 4rem;
-    margin-bottom: 2rem;
+    margin-left: 16rem;
+    margin-bottom: -6rem; 
+    margin-top: -6.3rem;
 }
+
+.d22{
+    margin-top: -15rem;
+    margin-left: 12rem;
+}
+
+
 
 li.menuicon{
     background-color: #FFF;
@@ -226,7 +235,7 @@ li.menuicon{
     text-decoration: none;
     display: block;
     text-align: left;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .menu a:hover{
@@ -240,7 +249,7 @@ li a:hover, .menuicon:hover:hover .burg {
 
 .d3{
     margin-left: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; 
 }
 
 
@@ -259,21 +268,22 @@ h2 {
     min-height: 10vh;
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    border-top: 0.2rem outset #f2dcdc;
 }
 
 .footer-items{
-    width: 30vw;
     min-height: 10vh;
 }
 
 .footerlogo{
-    margin-left: 10rem;
-    margin-top: -1.5rem;
+    margin-right: rem;
+    order: 1;
+    width: 20vw;
 }
 
 .copyright{
-    margin-right: 3rem;
+    margin-left: 10rem;
+    width: 30vw;
 }
 
 .copyright p{
