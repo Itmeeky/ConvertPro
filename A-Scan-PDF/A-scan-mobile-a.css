@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    padding-bottom: 30rem;
+    padding-bottom: 40rem;
     border: 0.2rem outset;
 }
 
