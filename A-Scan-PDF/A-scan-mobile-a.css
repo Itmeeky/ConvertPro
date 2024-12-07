@@ -73,7 +73,7 @@ body {
     width: 15vw;
     min-height: 10vh;
     position: absolute;
-    top: 45%;
+    top: 58%;
     left: 35%;
     display: flex;
     flex-direction: column;
@@ -240,16 +240,17 @@ li a:hover, .menuicon:hover:hover .burg {
     margin-top: 1rem;
 }
 
-.d2{
-    margin-left: 16rem;
-    margin-bottom: -6rem; 
-    margin-top: -6.3rem;
-}
-
 .d22{
-    margin-top: -15rem;
+    margin-top: -10rem;
     margin-left: 12rem;
 }
+
+.d2{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+
 
 /*Upload Section*/
 
@@ -330,7 +331,9 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     border-top: 0.2rem outset #f2dcdc;
+    margin-top: 4rem;
 }
+
 
 .footer-items{
     min-height: 10vh;
@@ -339,11 +342,11 @@ h1 {
 .footerlogo{
     order: 1;
     width: 20vw;
-    margin-left: 16rem;
+    margin-left: 7rem;
 }
 
 .copyright{
-    margin-left: 10rem;
+    margin-left: 5rem;
     width: 60vw;
     order: 2;
 }

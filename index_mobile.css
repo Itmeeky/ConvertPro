@@ -71,10 +71,10 @@ body {
 }
 
 .login{
-    width: 20vw;
+    width: 27vw;
     min-height: 10vh;
     position: absolute;
-    top: 46%;
+    top: 57%;
     left: 38%;
 }
 
@@ -207,15 +207,16 @@ li.dropdown2{
     margin-top: 1rem;
 }
 
-.d2{
-    margin-left: 4rem;
-    margin-bottom: -6rem; 
-    margin-top: -6.4rem;
-}
 
 .d22{
-    margin-top: -15rem;
+    margin-top: -10rem;
     margin-left: 12rem;
+}
+
+.d2{
+    margin-top: 2rem;
+    margin-left: -11rem;
+    padding-bottom: 6rem;
 }
 
 /* Hero Section */
@@ -355,9 +356,14 @@ font-size: 1.4rem;
 }
 
 .footerlogo{
-    margin-left: 4rem;
+    margin-left: -2rem;
 }
 
+.copyright{
+    margin-left: -3rem;
+    width: 60vw;
+    order: 2;
+}
 
 .copyright p{
     font-size: 1.5rem;
